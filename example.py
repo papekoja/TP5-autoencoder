@@ -52,10 +52,10 @@ discretized_pattern[discretized_pattern > 0.5] = 1
 discretized_pattern[discretized_pattern <= 0.5] = 0
 
 # Ensure the discretized pattern is in the correct shape
-discretized_pattern = np.reshape(discretized_pattern, (5, 7))
+discretized_pattern = np.reshape(discretized_pattern, (7, 5))
 
 # Original pattern reshaped
-original_pattern_reshaped = np.reshape(data_set[0], (5, 7))
+original_pattern_reshaped = np.reshape(data_set[0], (7, 5))
 
 # Plotting the original pattern
 plt.subplot(1, 2, 1)  # 1 row, 2 columns, first subplot
