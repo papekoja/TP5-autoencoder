@@ -1,0 +1,21 @@
+{
+	"data_path": "data/font.h",
+	"training_ratio": 1,
+
+	"activation_function": "exp",
+	"beta": 0.5,
+
+	"momentum": true,
+	"momentum_alpha": 0.9,
+
+	"hidden_layout": [25],
+	"latent_dim": 2,
+
+	"learning_rate": 1e-3,
+	"error_threshold": 1,
+	"epochs": 1000,
+
+	"denoising": {
+		"pm": 0.25
+	}
+}
