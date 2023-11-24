@@ -1,0 +1,3 @@
+With 16 neurons and lr 0.6 it got stuck around an error of 2.
+
+With 25 neurons and lr 0.6 it got stuck around an error of 1.5.

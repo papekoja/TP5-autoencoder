@@ -1,5 +1,6 @@
 import numpy as np
 import json
+import dill
 
 
 def read_fonts_h(file_path: str) -> np.ndarray:
@@ -35,3 +36,7 @@ def read_from_file(file_path: str) -> np.ndarray:
 def read_config(file_path: str) -> dict:
     with open(file_path, 'r') as file:
         return json.load(file)
+
+def read_model(file_path):
+    with open(file_path, 'rb') as file_handle:
+        return dill.load(file_handle)
