@@ -1,3 +1,13 @@
-With 16 neurons and lr 0.6 it got stuck around an error of 2.
+It seems like a higher beta on the exp activaiton function makes the error go
+down quicker but then it gets stuck in a local minima. I think this is because
+ the higher beta makes the gradient smaller and therefore the learning rate is
+  too small to get out of the local minima.
 
-With 25 neurons and lr 0.6 it got stuck around an error of 1.5.
+A smaller beta seems to make the error go down slower but it does not get stuck
+ in a local minima. I think this is because the gradient is bigger and therefore
+  the learning rate is bigger and it can get out of the local minima.
+
+ Tried different learning rates but it goes slow to train the model, therefore an extensive research on the
+  learning rate was not done.
+
+  A lot of epochs, low learning rate and low beta is good for now because it offers a steady decrease that doesn't get stuck.

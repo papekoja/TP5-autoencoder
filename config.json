@@ -5,21 +5,21 @@
 	"train": true,
 	"save": true,
 	"load": false,
-	"save_path": "saved_models/autoencoders/model1.pkl",
-	"load_path": "saved_models/autoencoders/model1.pkl",
+	"save_path": "saved_models/autoencoders/model4.pkl",
+	"load_path": "saved_models/autoencoders/model4.pkl",
 
 	"activation_function": "exp",
-	"beta": 1,
+	"beta": 0.5,
 
 	"momentum": true,
-	"momentum_alpha": 0.7,
+	"momentum_alpha": 0.9,
 
-	"hidden_layout": [25],
+	"hidden_layout": [64, 63, 32],
 	"latent_dim": 2,
 
 	"learning_rate": 3e-2,
-	"error_threshold": 0,
-	"epochs": 50000,
+	"error_threshold": 0.01,
+	"epochs": 2000,
 
 	"denoising": {
 		"pm": 0.25
