@@ -4,9 +4,9 @@
 
 	"train": true,
 	"save": true,
-	"load": false,
-	"save_path": "saved_models/autoencoders/model6.pkl",
-	"load_path": "saved_models/autoencoders/model6.pkl",
+	"load": true,
+	"save_path": "saved_models/autoencoders/model8.pkl",
+	"load_path": "saved_models/autoencoders/model7.pkl",
 
 	"activation_function": "exp",
 	"beta": 0.5,
@@ -14,12 +14,12 @@
 	"momentum": true,
 	"momentum_alpha": 0.9,
 
-	"hidden_layout": [64,64],
+	"hidden_layout": [64, 64, 64],
 	"latent_dim": 2,
 
-	"learning_rate": 3e-2,
+	"learning_rate": 1e-2,
 	"error_threshold": 0.01,
-	"epochs": 100000,
+	"epochs": 20000,
 
 	"denoising": {
 		"pm": 0.25

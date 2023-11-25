@@ -1,0 +1,5 @@
+Configuration:
+{'data_path': 'data/font.h', 'training_ratio': 1, 'train': True, 'save': True, 'load': True, 'save_path': 'saved_models/autoencoders/model8.pkl', 'load_path': 'saved_models/autoencoders/model7.pkl', 'activation_function': 'exp', 'beta': 0.5, 'momentum': True, 'momentum_alpha': 0.9, 'hidden_layout': [64, 64, 64], 'latent_dim': 2, 'learning_rate': 0.01, 'error_threshold': 0.01, 'epochs': 20000, 'denoising': {'pm': 0.25}}
+
+Lowest Error Achieved:
+0.14440663859805797
