@@ -2,11 +2,11 @@
 	"data_path": "data/font.h",
 	"training_ratio": 1,
 
-	"train": true,
-	"save": true,
+	"train": false,
+	"save": false,
 	"load": true,
 	"save_path": "saved_models/autoencoders/model8.pkl",
-	"load_path": "saved_models/autoencoders/model7.pkl",
+	"load_path": "saved_models/autoencoders/model8.pkl",
 
 	"activation_function": "exp",
 	"beta": 0.5,

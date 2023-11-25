@@ -14,3 +14,6 @@ A smaller beta seems to make the error go down slower but it does not get stuck
 
  Tried ADAM but it went much slower than gradient descent.
  The model took a long time to train so it was not feasible to try a lot of paramtere combinations.
+
+ First we trained the model with one hidden layer of 25 and got the error to arount 1.5 at the best. When increasing the
+ layer sized and amount of layers in hidden space the error went down to 0.15 apr. The best model was with 3 hidden layers of 64.
