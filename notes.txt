@@ -11,3 +11,5 @@ A smaller beta seems to make the error go down slower but it does not get stuck
   learning rate was not done.
 
   A lot of epochs, low learning rate and low beta is good for now because it offers a steady decrease that doesn't get stuck.
+
+ Tried ADAM but it went much slower than gradient descent.
